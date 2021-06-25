@@ -4,12 +4,6 @@ import numpy as np
 from dataset.utils import (
     get_adult_data,
     get_credit_data,
-    PROJ_ADULT_FILENAME,
-    SSIF_WEIGHTS_ADULT_FILENAME,
-    VANILLA_WEIGHTS_ADULT_FILENAME,
-    PROJ_CREDIT_FILENAME,
-    SSIF_WEIGHTS_CREDIT_FILENAME,
-    VANILLA_WEIGHTS_CREDIT_FILENAME,
 )
 
 from verification.global_v import verify_globally_for_mahalanobis, verify_globally_for_weighted_lp

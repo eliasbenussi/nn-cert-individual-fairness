@@ -29,12 +29,6 @@ from training.utils import save_model
 from dataset.utils import (
     get_adult_data,
     get_credit_data,
-    PROJ_ADULT_FILENAME,
-    SSIF_WEIGHTS_ADULT_FILENAME,
-    VANILLA_WEIGHTS_ADULT_FILENAME,
-    VANILLA_WEIGHTS_CREDIT_FILENAME,
-    SSIF_WEIGHTS_CREDIT_FILENAME,
-    PROJ_CREDIT_FILENAME,
 )
 
 

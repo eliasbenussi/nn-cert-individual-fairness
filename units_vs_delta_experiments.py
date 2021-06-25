@@ -16,12 +16,6 @@ from dataset.utils import (
     get_credit_data,
     get_crime_data,
     get_german_data,
-    PROJ_ADULT_FILENAME,
-    VANILLA_WEIGHTS_ADULT_FILENAME,
-    SSIF_WEIGHTS_ADULT_FILENAME,
-    PROJ_CREDIT_FILENAME,
-    VANILLA_WEIGHTS_CREDIT_FILENAME,
-    SSIF_WEIGHTS_CREDIT_FILENAME,
 )
 from training import generate_proj_for_distance, train_models_for_dataset
 from verification import verify

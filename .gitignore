@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+data/raw/openml/
+.idea/
+venv/
+.python-version
+.solver-log.log
+*.DS_Store
+saved_models
+tmp_saved_models
+mlruns

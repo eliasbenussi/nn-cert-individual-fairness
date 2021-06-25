@@ -12,13 +12,6 @@ from dataset.biased_dataset import BiasedDataset
 
 DATA_ADULT_TRAIN = './data/raw/adult.data.csv'
 DATA_ADULT_TEST = './data/raw/adult.test.csv'
-VANILLA_WEIGHTS_ADULT_FILENAME = './data/models/adult_vanilla_weights.npz'
-SSIF_WEIGHTS_ADULT_FILENAME = './data/models/adult_ssif_weights.npz'
-PROJ_ADULT_FILENAME = './data/adult_proj.csv'
-
-VANILLA_WEIGHTS_CREDIT_FILENAME = './data/models/credit_vanilla_weights.npz'
-SSIF_WEIGHTS_CREDIT_FILENAME = './data/models/credit_ssif_weights.npz'
-PROJ_CREDIT_FILENAME = './data/credit_proj.csv'
 
 DATA_CRIME_FILENAME = './data/raw/crime.csv'
 
