@@ -5,7 +5,7 @@ This repository contains the code to reproduce the results of the paper [Certifi
 ### Install
 
 In the paper we use the following datasets: [Adult](https://archive.ics.uci.edu/ml/datasets/Adult),
-[Credit](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#), [German](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data\)) and [Crime](http://archive.ics.uci.edu/ml//datasets/Communities+and+Crime). However, some preprocessing is required on the raw data to be used in our code. For convenience we share the cleaned data, which can be accessed using [git lfs](https://git-lfs.github.com/)(please follow installation instructions on their website).
+[Credit](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#), [German](https://archive.ics.uci.edu/ml/datasets/statlog+%28german+credit+data%29) and [Crime](http://archive.ics.uci.edu/ml//datasets/Communities+and+Crime). However, some preprocessing is required on the raw data to be used in our code. For convenience we share the cleaned data, which can be accessed using [git lfs](https://git-lfs.github.com/)(please follow installation instructions on their website).
 
 Install Python dependencies found in the `requirements.txt` file.
 
