@@ -9,3 +9,4 @@ venv/
 saved_models
 tmp_saved_models
 mlruns
+*.pyc
