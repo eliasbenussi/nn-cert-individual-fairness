@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-export FAIR_SOLVER="CBC"
+export FAIR_SOLVER="GUROBI"
 
 echo -e "\nSolver used in training: ${FAIR_SOLVER}\n"
 
@@ -109,7 +109,7 @@ python training_experiments.py --save-dir tmp_saved_models --dataset german_milp
 python training_experiments.py --save-dir tmp_saved_models --dataset adult_milp --layers 1 --units 100
 
 # Verify all models stored in tmp_saved_models
-export FAIR_SOLVER="GUROBI"
+export FAIR_SOLVER="CBC"
 
 echo -e "\nSolver used in verification: ${FAIR_SOLVER}\n"
 python training_experiments.py --save-dir tmp_saved_models --verify
